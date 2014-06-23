@@ -10,3 +10,7 @@ go build chkslave.go
 执行
 ========
 ./chkslave -config=slave.ini
+
+进行后台执行
+
+nohup ./chkslave -config=slave.ini &
