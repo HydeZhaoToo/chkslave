@@ -8,8 +8,6 @@ chkslave
 安装golang 
 详情http://www.alaiblog.com/program/step-by-step-install-golang-go.html
 
-安装 github.com/Unknwon/goconfig
-
 go get github.com/Unknwon/goconfig
 
 go get github.com/go-sql-driver/mysql
