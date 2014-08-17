@@ -166,7 +166,7 @@ func chkslave(c *chkset) error {
 
 //发送邮件
 func sendmail(m *mailini) error {
-	sub := "subject:  mysql从库报警通知邮件 \r\n\r\n"
+	sub := "subject:  mysql从库报警通知邮件  \r\n\r\n"
 	mailList := strings.Split(m.maillist, ",")
 	auth := smtp.PlainAuth("", m.user, m.passwd, m.smtpaddress)
 	au := fmt.Sprintf("%s:%d", m.smtpaddress, m.smtpport)
