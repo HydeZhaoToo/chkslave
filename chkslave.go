@@ -6,7 +6,6 @@ package main
 import (
 	"database/sql"
 	"errors"
-	
 	"flag"
 	"fmt"
 	"github.com/Unknwon/goconfig"
