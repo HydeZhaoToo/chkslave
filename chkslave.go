@@ -178,7 +178,6 @@ func sendmail(m *mailini) error {
 	}
 }
 
-//错误输出
 func chkerr(err error) {
 	if err != nil {
 		fmt.Println(err)
